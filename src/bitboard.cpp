@@ -175,7 +175,7 @@ void Bitboards::init() {
   for (Rank r = RANK_1; r < RANK_8; ++r)
       InFrontBB[WHITE][r] = ~(InFrontBB[BLACK][r + 1] = InFrontBB[BLACK][r] | RankBB[r]);
 
-  for (Color c = WHITE; c <= BLACK; ++c)
+  for (Color c : { WHITE, BLACK })
       for (Square s = SQ_A1; s <= SQ_H8; ++s)
       {
           ForwardBB[c][s]      = InFrontBB[c][rank_of(s)] & FileBB[file_of(s)];
@@ -194,8 +194,8 @@ void Bitboards::init() {
   int steps[][9] = { {}, { 7, 9 }, { 17, 15, 10, 6, -6, -10, -15, -17 },
                      {}, {}, {}, { 9, 7, -7, -9, 8, 1, -1, -8 } };
 
-  for (Color c = WHITE; c <= BLACK; ++c)
-      for (PieceType pt = PAWN; pt <= KING; ++pt)
+  for (Color c : { WHITE, BLACK })
+      for (PieceType pt : { PAWN, KNIGHT, KING })
           for (Square s = SQ_A1; s <= SQ_H8; ++s)
               for (int i = 0; steps[pt][i]; ++i)
               {
@@ -216,7 +216,7 @@ void Bitboards::init() {
       PseudoAttacks[QUEEN][s1]  = PseudoAttacks[BISHOP][s1] = attacks_bb<BISHOP>(s1, 0);
       PseudoAttacks[QUEEN][s1] |= PseudoAttacks[  ROOK][s1] = attacks_bb<  ROOK>(s1, 0);
 
-      for (Piece pc = W_BISHOP; pc <= W_ROOK; ++pc)
+      for (Piece pc : { W_BISHOP, W_ROOK })
           for (Square s2 = SQ_A1; s2 <= SQ_H8; ++s2)
           {
               if (!(PseudoAttacks[pc][s1] & s2))
