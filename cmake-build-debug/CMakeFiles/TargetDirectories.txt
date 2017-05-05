@@ -2,4 +2,5 @@
 /home/anders/Projects/Stockfish/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/anders/Projects/Stockfish/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 /home/anders/Projects/Stockfish/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/anders/Projects/Stockfish/cmake-build-debug/src/CMakeFiles/stockfish.dir
 /home/anders/Projects/Stockfish/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir

@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/stockfish.dir/rule:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/stockfish.dir/rule
+.PHONY : src/CMakeFiles/stockfish.dir/rule
+
+# Convenience name for target.
+stockfish: src/CMakeFiles/stockfish.dir/rule
+
+.PHONY : stockfish
+
+# fast build rule for target.
+stockfish/fast:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/build
+.PHONY : stockfish/fast
+
+# Convenience name for target.
 src/CMakeFiles/Stockfish_src.dir/rule:
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Stockfish_src.dir/rule
 .PHONY : src/CMakeFiles/Stockfish_src.dir/rule
@@ -131,6 +146,7 @@ benchmark.o: benchmark.cpp.o
 
 # target to build an object file
 benchmark.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/benchmark.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o
 .PHONY : benchmark.cpp.o
 
@@ -140,6 +156,7 @@ benchmark.i: benchmark.cpp.i
 
 # target to preprocess a source file
 benchmark.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/benchmark.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.i
 .PHONY : benchmark.cpp.i
 
@@ -149,6 +166,7 @@ benchmark.s: benchmark.cpp.s
 
 # target to generate assembly for a file
 benchmark.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/benchmark.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
@@ -158,6 +176,7 @@ bitbase.o: bitbase.cpp.o
 
 # target to build an object file
 bitbase.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitbase.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitbase.cpp.o
 .PHONY : bitbase.cpp.o
 
@@ -167,6 +186,7 @@ bitbase.i: bitbase.cpp.i
 
 # target to preprocess a source file
 bitbase.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitbase.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitbase.cpp.i
 .PHONY : bitbase.cpp.i
 
@@ -176,6 +196,7 @@ bitbase.s: bitbase.cpp.s
 
 # target to generate assembly for a file
 bitbase.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitbase.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitbase.cpp.s
 .PHONY : bitbase.cpp.s
 
@@ -185,6 +206,7 @@ bitboard.o: bitboard.cpp.o
 
 # target to build an object file
 bitboard.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitboard.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitboard.cpp.o
 .PHONY : bitboard.cpp.o
 
@@ -194,6 +216,7 @@ bitboard.i: bitboard.cpp.i
 
 # target to preprocess a source file
 bitboard.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitboard.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitboard.cpp.i
 .PHONY : bitboard.cpp.i
 
@@ -203,6 +226,7 @@ bitboard.s: bitboard.cpp.s
 
 # target to generate assembly for a file
 bitboard.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/bitboard.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/bitboard.cpp.s
 .PHONY : bitboard.cpp.s
 
@@ -212,6 +236,7 @@ endgame.o: endgame.cpp.o
 
 # target to build an object file
 endgame.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/endgame.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o
 .PHONY : endgame.cpp.o
 
@@ -221,6 +246,7 @@ endgame.i: endgame.cpp.i
 
 # target to preprocess a source file
 endgame.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/endgame.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/endgame.cpp.i
 .PHONY : endgame.cpp.i
 
@@ -230,6 +256,7 @@ endgame.s: endgame.cpp.s
 
 # target to generate assembly for a file
 endgame.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/endgame.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/endgame.cpp.s
 .PHONY : endgame.cpp.s
 
@@ -239,6 +266,7 @@ evaluate.o: evaluate.cpp.o
 
 # target to build an object file
 evaluate.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/evaluate.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o
 .PHONY : evaluate.cpp.o
 
@@ -248,6 +276,7 @@ evaluate.i: evaluate.cpp.i
 
 # target to preprocess a source file
 evaluate.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/evaluate.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.i
 .PHONY : evaluate.cpp.i
 
@@ -257,6 +286,7 @@ evaluate.s: evaluate.cpp.s
 
 # target to generate assembly for a file
 evaluate.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/evaluate.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.s
 .PHONY : evaluate.cpp.s
 
@@ -266,6 +296,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/main.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -275,6 +306,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/main.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -284,6 +316,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/main.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -293,6 +326,7 @@ material.o: material.cpp.o
 
 # target to build an object file
 material.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/material.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/material.cpp.o
 .PHONY : material.cpp.o
 
@@ -302,6 +336,7 @@ material.i: material.cpp.i
 
 # target to preprocess a source file
 material.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/material.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/material.cpp.i
 .PHONY : material.cpp.i
 
@@ -311,6 +346,7 @@ material.s: material.cpp.s
 
 # target to generate assembly for a file
 material.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/material.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/material.cpp.s
 .PHONY : material.cpp.s
 
@@ -320,6 +356,7 @@ misc.o: misc.cpp.o
 
 # target to build an object file
 misc.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/misc.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/misc.cpp.o
 .PHONY : misc.cpp.o
 
@@ -329,6 +366,7 @@ misc.i: misc.cpp.i
 
 # target to preprocess a source file
 misc.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/misc.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/misc.cpp.i
 .PHONY : misc.cpp.i
 
@@ -338,6 +376,7 @@ misc.s: misc.cpp.s
 
 # target to generate assembly for a file
 misc.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/misc.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/misc.cpp.s
 .PHONY : misc.cpp.s
 
@@ -347,6 +386,7 @@ movegen.o: movegen.cpp.o
 
 # target to build an object file
 movegen.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movegen.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o
 .PHONY : movegen.cpp.o
 
@@ -356,6 +396,7 @@ movegen.i: movegen.cpp.i
 
 # target to preprocess a source file
 movegen.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movegen.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movegen.cpp.i
 .PHONY : movegen.cpp.i
 
@@ -365,6 +406,7 @@ movegen.s: movegen.cpp.s
 
 # target to generate assembly for a file
 movegen.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movegen.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movegen.cpp.s
 .PHONY : movegen.cpp.s
 
@@ -374,6 +416,7 @@ movepick.o: movepick.cpp.o
 
 # target to build an object file
 movepick.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movepick.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o
 .PHONY : movepick.cpp.o
 
@@ -383,6 +426,7 @@ movepick.i: movepick.cpp.i
 
 # target to preprocess a source file
 movepick.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movepick.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movepick.cpp.i
 .PHONY : movepick.cpp.i
 
@@ -392,6 +436,7 @@ movepick.s: movepick.cpp.s
 
 # target to generate assembly for a file
 movepick.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/movepick.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/movepick.cpp.s
 .PHONY : movepick.cpp.s
 
@@ -401,6 +446,7 @@ pawns.o: pawns.cpp.o
 
 # target to build an object file
 pawns.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/pawns.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o
 .PHONY : pawns.cpp.o
 
@@ -410,6 +456,7 @@ pawns.i: pawns.cpp.i
 
 # target to preprocess a source file
 pawns.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/pawns.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/pawns.cpp.i
 .PHONY : pawns.cpp.i
 
@@ -419,6 +466,7 @@ pawns.s: pawns.cpp.s
 
 # target to generate assembly for a file
 pawns.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/pawns.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/pawns.cpp.s
 .PHONY : pawns.cpp.s
 
@@ -428,6 +476,7 @@ position.o: position.cpp.o
 
 # target to build an object file
 position.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/position.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/position.cpp.o
 .PHONY : position.cpp.o
 
@@ -437,6 +486,7 @@ position.i: position.cpp.i
 
 # target to preprocess a source file
 position.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/position.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/position.cpp.i
 .PHONY : position.cpp.i
 
@@ -446,6 +496,7 @@ position.s: position.cpp.s
 
 # target to generate assembly for a file
 position.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/position.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/position.cpp.s
 .PHONY : position.cpp.s
 
@@ -455,6 +506,7 @@ psqt.o: psqt.cpp.o
 
 # target to build an object file
 psqt.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/psqt.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/psqt.cpp.o
 .PHONY : psqt.cpp.o
 
@@ -464,6 +516,7 @@ psqt.i: psqt.cpp.i
 
 # target to preprocess a source file
 psqt.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/psqt.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/psqt.cpp.i
 .PHONY : psqt.cpp.i
 
@@ -473,6 +526,7 @@ psqt.s: psqt.cpp.s
 
 # target to generate assembly for a file
 psqt.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/psqt.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/psqt.cpp.s
 .PHONY : psqt.cpp.s
 
@@ -482,6 +536,7 @@ search.o: search.cpp.o
 
 # target to build an object file
 search.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/search.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/search.cpp.o
 .PHONY : search.cpp.o
 
@@ -491,6 +546,7 @@ search.i: search.cpp.i
 
 # target to preprocess a source file
 search.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/search.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/search.cpp.i
 .PHONY : search.cpp.i
 
@@ -500,6 +556,7 @@ search.s: search.cpp.s
 
 # target to generate assembly for a file
 search.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/search.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/search.cpp.s
 .PHONY : search.cpp.s
 
@@ -509,6 +566,7 @@ syzygy/tbprobe.o: syzygy/tbprobe.cpp.o
 
 # target to build an object file
 syzygy/tbprobe.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/syzygy/tbprobe.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o
 .PHONY : syzygy/tbprobe.cpp.o
 
@@ -518,6 +576,7 @@ syzygy/tbprobe.i: syzygy/tbprobe.cpp.i
 
 # target to preprocess a source file
 syzygy/tbprobe.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/syzygy/tbprobe.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.i
 .PHONY : syzygy/tbprobe.cpp.i
 
@@ -527,6 +586,7 @@ syzygy/tbprobe.s: syzygy/tbprobe.cpp.s
 
 # target to generate assembly for a file
 syzygy/tbprobe.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/syzygy/tbprobe.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.s
 .PHONY : syzygy/tbprobe.cpp.s
 
@@ -536,6 +596,7 @@ thread.o: thread.cpp.o
 
 # target to build an object file
 thread.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/thread.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/thread.cpp.o
 .PHONY : thread.cpp.o
 
@@ -545,6 +606,7 @@ thread.i: thread.cpp.i
 
 # target to preprocess a source file
 thread.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/thread.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/thread.cpp.i
 .PHONY : thread.cpp.i
 
@@ -554,6 +616,7 @@ thread.s: thread.cpp.s
 
 # target to generate assembly for a file
 thread.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/thread.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/thread.cpp.s
 .PHONY : thread.cpp.s
 
@@ -563,6 +626,7 @@ timeman.o: timeman.cpp.o
 
 # target to build an object file
 timeman.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/timeman.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o
 .PHONY : timeman.cpp.o
 
@@ -572,6 +636,7 @@ timeman.i: timeman.cpp.i
 
 # target to preprocess a source file
 timeman.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/timeman.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/timeman.cpp.i
 .PHONY : timeman.cpp.i
 
@@ -581,6 +646,7 @@ timeman.s: timeman.cpp.s
 
 # target to generate assembly for a file
 timeman.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/timeman.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/timeman.cpp.s
 .PHONY : timeman.cpp.s
 
@@ -590,6 +656,7 @@ tt.o: tt.cpp.o
 
 # target to build an object file
 tt.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/tt.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/tt.cpp.o
 .PHONY : tt.cpp.o
 
@@ -599,6 +666,7 @@ tt.i: tt.cpp.i
 
 # target to preprocess a source file
 tt.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/tt.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/tt.cpp.i
 .PHONY : tt.cpp.i
 
@@ -608,6 +676,7 @@ tt.s: tt.cpp.s
 
 # target to generate assembly for a file
 tt.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/tt.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/tt.cpp.s
 .PHONY : tt.cpp.s
 
@@ -617,6 +686,7 @@ uci.o: uci.cpp.o
 
 # target to build an object file
 uci.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/uci.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/uci.cpp.o
 .PHONY : uci.cpp.o
 
@@ -626,6 +696,7 @@ uci.i: uci.cpp.i
 
 # target to preprocess a source file
 uci.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/uci.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/uci.cpp.i
 .PHONY : uci.cpp.i
 
@@ -635,6 +706,7 @@ uci.s: uci.cpp.s
 
 # target to generate assembly for a file
 uci.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/uci.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/uci.cpp.s
 .PHONY : uci.cpp.s
 
@@ -644,6 +716,7 @@ ucioption.o: ucioption.cpp.o
 
 # target to build an object file
 ucioption.cpp.o:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/ucioption.cpp.o
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o
 .PHONY : ucioption.cpp.o
 
@@ -653,6 +726,7 @@ ucioption.i: ucioption.cpp.i
 
 # target to preprocess a source file
 ucioption.cpp.i:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/ucioption.cpp.i
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.i
 .PHONY : ucioption.cpp.i
 
@@ -662,6 +736,7 @@ ucioption.s: ucioption.cpp.s
 
 # target to generate assembly for a file
 ucioption.cpp.s:
+	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/ucioption.cpp.s
 	cd /home/anders/Projects/Stockfish/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Stockfish_src.dir/build.make src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.s
 .PHONY : ucioption.cpp.s
 
@@ -673,6 +748,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... stockfish"
 	@echo "... Stockfish_src"
 	@echo "... benchmark.o"
 	@echo "... benchmark.i"

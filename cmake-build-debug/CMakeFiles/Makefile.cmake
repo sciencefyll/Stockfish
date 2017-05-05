@@ -46,5 +46,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/stockfish.dir/DependInfo.cmake"
   "src/CMakeFiles/Stockfish_src.dir/DependInfo.cmake"
   )

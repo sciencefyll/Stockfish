@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stockfish
+
+# Build rule for target.
+stockfish: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stockfish
+.PHONY : stockfish
+
+# fast build rule for target.
+stockfish/fast:
+	$(MAKE) -f src/CMakeFiles/stockfish.dir/build.make src/CMakeFiles/stockfish.dir/build
+.PHONY : stockfish/fast
+
+#=============================================================================
 # Target rules for targets named Stockfish_src
 
 # Build rule for target.
@@ -131,6 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... stockfish"
 	@echo "... Stockfish_src"
 .PHONY : help
 

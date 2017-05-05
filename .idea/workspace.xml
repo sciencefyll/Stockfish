@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="Stockfish" targetName="stockfish" />
       <config projectName="Stockfish" targetName="Stockfish_src" />
     </generated>
   </component>
@@ -12,76 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2524e1-4bc0-4ac7-bfdb-382d5f916b18" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/bitboard.h" afterPath="$PROJECT_DIR$/include/stockfish/bitboard.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/endgame.h" afterPath="$PROJECT_DIR$/include/stockfish/endgame.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/evaluate.h" afterPath="$PROJECT_DIR$/include/stockfish/evaluate.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/material.h" afterPath="$PROJECT_DIR$/include/stockfish/material.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/misc.h" afterPath="$PROJECT_DIR$/include/stockfish/misc.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/movegen.h" afterPath="$PROJECT_DIR$/include/stockfish/movegen.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/movepick.h" afterPath="$PROJECT_DIR$/include/stockfish/movepick.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/pawns.h" afterPath="$PROJECT_DIR$/include/stockfish/pawns.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/position.h" afterPath="$PROJECT_DIR$/include/stockfish/position.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/search.h" afterPath="$PROJECT_DIR$/include/stockfish/search.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/syzygy/tbprobe.h" afterPath="$PROJECT_DIR$/include/stockfish/syzygy/tbprobe.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/thread.h" afterPath="$PROJECT_DIR$/include/stockfish/thread.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/thread_win32.h" afterPath="$PROJECT_DIR$/include/stockfish/thread_win32.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/timeman.h" afterPath="$PROJECT_DIR$/include/stockfish/timeman.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/tt.h" afterPath="$PROJECT_DIR$/include/stockfish/tt.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/types.h" afterPath="$PROJECT_DIR$/include/stockfish/types.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/include/Stockfish/uci.h" afterPath="$PROJECT_DIR$/include/stockfish/uci.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/bitbase.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/bitbase.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/bitboard.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/bitboard.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/psqt.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/psqt.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/tt.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/tt.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/uci.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/uci.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appveyor.yml" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Stockfish.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Stockfish.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/benchmark.cpp" afterPath="$PROJECT_DIR$/src/benchmark.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bitbase.cpp" afterPath="$PROJECT_DIR$/src/bitbase.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bitboard.cpp" afterPath="$PROJECT_DIR$/src/bitboard.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/endgame.cpp" afterPath="$PROJECT_DIR$/src/endgame.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/evaluate.cpp" afterPath="$PROJECT_DIR$/src/evaluate.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/material.cpp" afterPath="$PROJECT_DIR$/src/material.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc.cpp" afterPath="$PROJECT_DIR$/src/misc.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/movegen.cpp" afterPath="$PROJECT_DIR$/src/movegen.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/movepick.cpp" afterPath="$PROJECT_DIR$/src/movepick.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pawns.cpp" afterPath="$PROJECT_DIR$/src/pawns.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/position.cpp" afterPath="$PROJECT_DIR$/src/position.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psqt.cpp" afterPath="$PROJECT_DIR$/src/psqt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search.cpp" afterPath="$PROJECT_DIR$/src/search.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/syzygy/tbprobe.cpp" afterPath="$PROJECT_DIR$/src/syzygy/tbprobe.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thread.cpp" afterPath="$PROJECT_DIR$/src/thread.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/timeman.cpp" afterPath="$PROJECT_DIR$/src/timeman.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tt.cpp" afterPath="$PROJECT_DIR$/src/tt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uci.cpp" afterPath="$PROJECT_DIR$/src/uci.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ucioption.cpp" afterPath="$PROJECT_DIR$/src/ucioption.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,40 +38,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="psqt.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/psqt.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#910#930#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <element signature="e#910#930#0" expanded="true" />
-                <marker date="1493946604569" expanded="false" signature="2572:2594" ph="&lt;bool PvNode&gt;" />
-                <marker date="1493946604569" expanded="false" signature="4411:4433" ph="&lt;NodeType NT&gt;" />
-                <marker date="1493946604569" expanded="false" signature="4554:4590" ph="&lt;NodeType NT,bool InCheck&gt;" />
-                <marker date="1493946604569" expanded="false" signature="6508:6527" ph="&lt;bool Root&gt;" />
-                <marker date="1493946604569" expanded="false" signature="18217:18239" ph="&lt;NodeType NT&gt;" />
-                <marker date="1493946604569" expanded="false" signature="42090:42126" ph="&lt;NodeType NT,bool InCheck&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="thread.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="567">
               <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
@@ -137,7 +51,7 @@
       <file leaf-file-name="timeman.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/timeman.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
+            <state relative-caret-position="588">
               <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="e#910#930#0" expanded="true" />
@@ -150,7 +64,7 @@
       <file leaf-file-name="tt.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tt.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="546">
               <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
                 <element signature="e#910#949#0" expanded="true" />
@@ -162,7 +76,7 @@
       <file leaf-file-name="uci.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uci.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
+            <state relative-caret-position="693">
               <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
               <folding>
                 <element signature="e#910#929#0" expanded="true" />
@@ -174,7 +88,7 @@
       <file leaf-file-name="ucioption.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ucioption.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="378">
               <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
                 <element signature="e#910#930#0" expanded="true" />
@@ -203,11 +117,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeman.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timeman.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/stockfish/timeman.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -230,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/syzygy/tbprobe.cpp" />
         <option value="$PROJECT_DIR$/src/benchmark.cpp" />
@@ -252,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/tt.cpp" />
         <option value="$PROJECT_DIR$/src/uci.cpp" />
         <option value="$PROJECT_DIR$/src/ucioption.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -377,6 +312,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -583,13 +519,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="stockfish" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Stockfish" TARGET_NAME="stockfish" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Stockfish_src" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Stockfish" TARGET_NAME="Stockfish_src" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Stockfish" RUN_TARGET_NAME="Stockfish_src">
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Stockfish_src" />
+      <item index="1" class="java.lang.String" itemvalue="Application.stockfish" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Stockfish_src" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -603,34 +544,36 @@
       <option name="presentableId" value="Default" />
       <updated>1493945884445</updated>
       <workItem from="1493945885574" duration="375000" />
-      <workItem from="1493946429503" duration="203000" />
+      <workItem from="1493946429503" duration="262000" />
+      <workItem from="1493949754483" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="578000" />
+    <option name="totallyTimeSpent" value="848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="-11" width="2055" height="1419" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18966357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18966357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -645,242 +588,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Makefile" />
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/syzygy/tbprobe.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1781">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#791#811#0" expanded="true" />
-            <element signature="e#1249#1267#0" expanded="true" />
-            <element signature="e#1338#1403#0" expanded="true" />
-            <element signature="e#10307#10332#0" expanded="true" />
-            <element signature="e#11308#12091#0" expanded="true" />
-            <element signature="e#12651#12718#0" expanded="true" />
-            <marker date="1493946604523" expanded="false" signature="2355:2376" ph="&lt;T&gt;" />
-            <marker date="1493946604523" expanded="false" signature="3020:3036" ph="&lt;Side S&gt;" />
-            <marker date="1493946604523" expanded="false" signature="6912:6932" ph="&lt;E&gt;" />
-            <marker date="1493946604523" expanded="false" signature="6967:6977" ph="&lt;&gt;" />
-            <marker date="1493946604523" expanded="false" signature="7815:7886" ph="&lt;T,int Half=sizeof(T)/2,int End=sizeof(T)-1&gt;" />
-            <marker date="1493946604523" expanded="false" signature="8041:8051" ph="&lt;&gt;" />
-            <marker date="1493946604523" expanded="false" signature="8103:8131" ph="&lt;T,int LE&gt;" />
-            <marker date="1493946604523" expanded="false" signature="9246:9316" ph="&lt;E,int I=std::is_same&lt;E,WDLEntry&gt;::value?0:1&gt;" />
-            <marker date="1493946604523" expanded="false" signature="23394:23458" ph="&lt;Entry,T=Ret&lt;Entry&gt;::type&gt;" />
-            <marker date="1493946604523" expanded="false" signature="33111:33131" ph="&lt;T&gt;" />
-            <marker date="1493946604523" expanded="false" signature="39041:39061" ph="&lt;T&gt;" />
-            <marker date="1493946604523" expanded="false" signature="39135:39155" ph="&lt;T&gt;" />
-            <marker date="1493946604523" expanded="false" signature="39620:39656" ph="&lt;Entry,T&gt;" />
-            <marker date="1493946604523" expanded="false" signature="41845:41869" ph="&lt;Entry&gt;" />
-            <marker date="1493946604523" expanded="false" signature="43182:43238" ph="&lt;E,T=Ret&lt;E&gt;::type&gt;" />
-            <marker date="1493946604523" expanded="false" signature="44581:44621" ph="&lt;bool CheckZeroingMoves=false&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/benchmark.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#910#928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bitbase.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <marker date="1493946604576" expanded="false" signature="2378:2396" ph="&lt;Color Us&gt;" />
-            <marker date="1493946604576" expanded="false" signature="4731:4749" ph="&lt;Color Us&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bitboard.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <element signature="e#3087#3571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/endgame.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <marker date="1493946604583" expanded="false" signature="3393:3428" ph="&lt;EndgameType E,T&gt;" />
-            <marker date="1493946604583" expanded="false" signature="4017:4027" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="5292:5302" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="6232:6242" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="7212:7222" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="8956:8966" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="9427:9437" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="10127:10137" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="11109:11119" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="11662:11672" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="12005:12015" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="14758:14768" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="15798:15808" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="19689:19699" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="21455:21465" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="22479:22489" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="23436:23446" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="25248:25258" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="27678:27688" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="28519:28529" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="29171:29181" ph="&lt;&gt;" />
-            <marker date="1493946604583" expanded="false" signature="30088:30098" ph="&lt;&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evaluate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <marker date="1493946604563" expanded="false" signature="9420:9438" ph="&lt;Color Us&gt;" />
-            <marker date="1493946604563" expanded="false" signature="10964:11027" ph="&lt;bool DoTrace,Color Us=WHITE,PieceType Pt=KNIGHT&gt;" />
-            <marker date="1493946604563" expanded="false" signature="15716:15726" ph="&lt;&gt;" />
-            <marker date="1493946604563" expanded="false" signature="15832:15842" ph="&lt;&gt;" />
-            <marker date="1493946604563" expanded="false" signature="16378:16410" ph="&lt;Color Us,bool DoTrace&gt;" />
-            <marker date="1493946604563" expanded="false" signature="21046:21078" ph="&lt;Color Us,bool DoTrace&gt;" />
-            <marker date="1493946604563" expanded="false" signature="24364:24396" ph="&lt;Color Us,bool DoTrace&gt;" />
-            <marker date="1493946604563" expanded="false" signature="27921:27939" ph="&lt;Color Us&gt;" />
-            <marker date="1493946604563" expanded="false" signature="32009:32031" ph="&lt;bool DoTrace&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#910#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/material.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#910#946#0" expanded="true" />
-            <marker date="1493946604536" expanded="false" signature="3593:3611" ph="&lt;Color Us&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1633#1651#0" expanded="true" />
-            <element signature="e#5562#5585#0" expanded="true" />
-            <element signature="e#5658#5806#0" expanded="true" />
-            <element signature="e#5872#5911#0" expanded="true" />
-            <element signature="e#6133#9307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/movegen.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#910#928#0" expanded="true" />
-            <marker date="1493946604529" expanded="false" signature="1009:1063" ph="&lt;CastlingRight Cr,bool Checks,bool Chess960&gt;" />
-            <marker date="1493946604529" expanded="false" signature="2397:2429" ph="&lt;GenType Type,Square D&gt;" />
-            <marker date="1493946604529" expanded="false" signature="3237:3269" ph="&lt;Color Us,GenType Type&gt;" />
-            <marker date="1493946604529" expanded="false" signature="7848:7883" ph="&lt;PieceType Pt,bool Checks&gt;" />
-            <marker date="1493946604529" expanded="false" signature="8681:8713" ph="&lt;Color Us,GenType Type&gt;" />
-            <marker date="1493946604529" expanded="false" signature="10513:10535" ph="&lt;GenType Type&gt;" />
-            <marker date="1493946604529" expanded="false" signature="11459:11469" ph="&lt;&gt;" />
-            <marker date="1493946604529" expanded="false" signature="12396:12406" ph="&lt;&gt;" />
-            <marker date="1493946604529" expanded="false" signature="13701:13711" ph="&lt;&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/movepick.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#910#928#0" expanded="true" />
-            <marker date="1493946604529" expanded="false" signature="4240:4250" ph="&lt;&gt;" />
-            <marker date="1493946604529" expanded="false" signature="4985:4995" ph="&lt;&gt;" />
-            <marker date="1493946604529" expanded="false" signature="5508:5518" ph="&lt;&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pawns.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <marker date="1493946604579" expanded="false" signature="3603:3621" ph="&lt;Color Us&gt;" />
-            <marker date="1493946604579" expanded="false" signature="8870:8888" ph="&lt;Color Us&gt;" />
-            <marker date="1493946604579" expanded="false" signature="10240:10258" ph="&lt;Color Us&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/position.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding>
-            <element signature="e#910#930#0" expanded="true" />
-            <marker date="1493946604533" expanded="false" signature="1818:1834" ph="&lt;int Pt&gt;" />
-            <marker date="1493946604533" expanded="false" signature="2478:2488" ph="&lt;&gt;" />
-            <marker date="1493946604533" expanded="false" signature="29741:29758" ph="&lt;bool Do&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/psqt.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="504">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="e#910#930#0" expanded="true" />
@@ -890,7 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
+        <state relative-caret-position="819">
           <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
           <folding>
             <element signature="e#910#930#0" expanded="true" />
@@ -906,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="567">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
@@ -914,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/timeman.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
+        <state relative-caret-position="588">
           <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding>
             <element signature="e#910#930#0" expanded="true" />
@@ -925,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tt.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="546">
           <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
             <element signature="e#910#949#0" expanded="true" />
@@ -935,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uci.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
+        <state relative-caret-position="693">
           <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding>
             <element signature="e#910#929#0" expanded="true" />
@@ -945,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ucioption.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="378">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="e#910#930#0" expanded="true" />
@@ -973,6 +683,227 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Makefile" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syzygy/tbprobe.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1781">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/benchmark.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bitbase.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bitboard.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/endgame.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/evaluate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/material.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movegen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/movepick.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pawns.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/position.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/psqt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#910#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="e#910#930#0" expanded="true" />
+            <marker date="1493946604569" expanded="false" signature="2572:2594" ph="&lt;bool PvNode&gt;" />
+            <marker date="1493946604569" expanded="false" signature="4411:4433" ph="&lt;NodeType NT&gt;" />
+            <marker date="1493946604569" expanded="false" signature="4554:4590" ph="&lt;NodeType NT,bool InCheck&gt;" />
+            <marker date="1493946604569" expanded="false" signature="6508:6527" ph="&lt;bool Root&gt;" />
+            <marker date="1493946604569" expanded="false" signature="18217:18239" ph="&lt;NodeType NT&gt;" />
+            <marker date="1493946604569" expanded="false" signature="42090:42126" ph="&lt;NodeType NT,bool InCheck&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timeman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#910#930#0" expanded="true" />
+            <marker date="1493946604559" expanded="false" signature="2021:2041" ph="&lt;TimeType T&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#910#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uci.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#910#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ucioption.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#910#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stockfish/evaluate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stockfish/pawns.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stockfish/timeman.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
           <folding />
         </state>
       </provider>

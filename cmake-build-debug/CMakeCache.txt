@@ -190,6 +190,9 @@ Stockfish_src_BINARY_DIR:STATIC=/home/anders/Projects/Stockfish/cmake-build-debu
 //Value Computed by CMake
 Stockfish_src_SOURCE_DIR:STATIC=/home/anders/Projects/Stockfish/src
 
+//Dependencies for target
+stockfish_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries
