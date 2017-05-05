@@ -22,12 +22,12 @@
 #include <cassert>
 #include <ostream>
 
-#include "misc.h"
-#include "search.h"
-#include "thread.h"
-#include "tt.h"
-#include "uci.h"
-#include "syzygy/tbprobe.h"
+#include "../include/Stockfish/misc.h"
+#include "../include/Stockfish/search.h"
+#include "../include/Stockfish/thread.h"
+#include "../include/Stockfish/tt.h"
+#include "../include/Stockfish/uci.h"
+#include "../include/Stockfish/syzygy/tbprobe.h"
 
 using std::string;
 

@@ -21,11 +21,11 @@
 #include <algorithm> // For std::count
 #include <cassert>
 
-#include "movegen.h"
-#include "search.h"
-#include "thread.h"
-#include "uci.h"
-#include "syzygy/tbprobe.h"
+#include "../include/Stockfish/movegen.h"
+#include "../include/Stockfish/search.h"
+#include "../include/Stockfish/thread.h"
+#include "../include/Stockfish/uci.h"
+#include "../include/Stockfish/syzygy/tbprobe.h"
 
 ThreadPool Threads; // Global object
 

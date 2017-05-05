@@ -42,8 +42,8 @@ typedef bool(*fun3_t)(HANDLE, CONST GROUP_AFFINITY*, PGROUP_AFFINITY);
 #include <sstream>
 #include <vector>
 
-#include "misc.h"
-#include "thread.h"
+#include "../include/Stockfish/misc.h"
+#include "../include/Stockfish/thread.h"
 
 using namespace std;
 

@@ -20,13 +20,13 @@
 
 #include <iostream>
 
-#include "bitboard.h"
-#include "position.h"
-#include "search.h"
-#include "thread.h"
-#include "tt.h"
-#include "uci.h"
-#include "syzygy/tbprobe.h"
+#include "../include/Stockfish/bitboard.h"
+#include "../include/Stockfish/position.h"
+#include "../include/Stockfish/search.h"
+#include "../include/Stockfish/thread.h"
+#include "../include/Stockfish/tt.h"
+#include "../include/Stockfish/uci.h"
+#include "../include/Stockfish/syzygy/tbprobe.h"
 
 namespace PSQT {
   void init();

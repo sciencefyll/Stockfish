@@ -28,14 +28,14 @@
 #include <sstream>
 #include <type_traits>
 
-#include "../bitboard.h"
-#include "../movegen.h"
-#include "../position.h"
-#include "../search.h"
-#include "../thread_win32.h"
-#include "../types.h"
+#include "../../include/Stockfish/bitboard.h"
+#include "../../include/Stockfish/movegen.h"
+#include "../../include/Stockfish/position.h"
+#include "../../include/Stockfish/search.h"
+#include "../../include/Stockfish/thread_win32.h"
+#include "../../include/Stockfish/types.h"
 
-#include "tbprobe.h"
+#include "../../include/Stockfish/syzygy/tbprobe.h"
 
 #ifndef _WIN32
 #include <fcntl.h>

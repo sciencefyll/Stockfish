@@ -21,9 +21,9 @@
 #include <algorithm>
 #include <cassert>
 
-#include "bitboard.h"
-#include "endgame.h"
-#include "movegen.h"
+#include "../include/Stockfish/bitboard.h"
+#include "../include/Stockfish/endgame.h"
+#include "../include/Stockfish/movegen.h"
 
 using std::string;
 

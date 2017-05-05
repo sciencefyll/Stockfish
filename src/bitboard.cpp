@@ -20,8 +20,8 @@
 
 #include <algorithm>
 
-#include "bitboard.h"
-#include "misc.h"
+#include "../include/Stockfish/bitboard.h"
+#include "../include/Stockfish/misc.h"
 
 uint8_t PopCnt16[1 << 16];
 int SquareDistance[SQUARE_NB][SQUARE_NB];

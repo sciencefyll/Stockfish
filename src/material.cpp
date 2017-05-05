@@ -22,8 +22,8 @@
 #include <cassert>
 #include <cstring>   // For std::memset
 
-#include "material.h"
-#include "thread.h"
+#include "../include/Stockfish/material.h"
+#include "../include/Stockfish/thread.h"
 
 using namespace std;
 

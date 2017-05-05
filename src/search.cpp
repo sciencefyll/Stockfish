@@ -25,17 +25,17 @@
 #include <iostream>
 #include <sstream>
 
-#include "evaluate.h"
-#include "misc.h"
-#include "movegen.h"
-#include "movepick.h"
-#include "position.h"
-#include "search.h"
-#include "timeman.h"
-#include "thread.h"
-#include "tt.h"
-#include "uci.h"
-#include "syzygy/tbprobe.h"
+#include "../include/Stockfish/evaluate.h"
+#include "../include/Stockfish/misc.h"
+#include "../include/Stockfish/movegen.h"
+#include "../include/Stockfish/movepick.h"
+#include "../include/Stockfish/position.h"
+#include "../include/Stockfish/search.h"
+#include "../include/Stockfish/timeman.h"
+#include "../include/Stockfish/thread.h"
+#include "../include/Stockfish/tt.h"
+#include "../include/Stockfish/uci.h"
+#include "../include/Stockfish/syzygy/tbprobe.h"
 
 namespace Search {
 

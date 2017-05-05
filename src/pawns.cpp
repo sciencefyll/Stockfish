@@ -21,10 +21,10 @@
 #include <algorithm>
 #include <cassert>
 
-#include "bitboard.h"
-#include "pawns.h"
-#include "position.h"
-#include "thread.h"
+#include "../include/Stockfish/bitboard.h"
+#include "../include/Stockfish/pawns.h"
+#include "../include/Stockfish/position.h"
+#include "../include/Stockfish/thread.h"
 
 namespace {
 

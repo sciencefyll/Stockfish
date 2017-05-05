@@ -22,14 +22,14 @@
 #include <sstream>
 #include <string>
 
-#include "evaluate.h"
-#include "movegen.h"
-#include "position.h"
-#include "search.h"
-#include "thread.h"
-#include "timeman.h"
-#include "uci.h"
-#include "syzygy/tbprobe.h"
+#include "../include/Stockfish/evaluate.h"
+#include "../include/Stockfish/movegen.h"
+#include "../include/Stockfish/position.h"
+#include "../include/Stockfish/search.h"
+#include "../include/Stockfish/thread.h"
+#include "../include/Stockfish/timeman.h"
+#include "../include/Stockfish/uci.h"
+#include "../include/Stockfish/syzygy/tbprobe.h"
 
 using namespace std;
 
