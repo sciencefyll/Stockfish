@@ -17,7 +17,7 @@
 #include "stockfish/syzygy/tbprobe.h"
 
 namespace stockfishMock {
-void evaluate(std::string fen) {
+int evaluate(std::string fen) {
   UCI::init(Options);
   PSQT::init();
   Bitboards::init();
@@ -29,11 +29,13 @@ void evaluate(std::string fen) {
   Tablebases::init(Options["SyzygyPath"]);
   TT.resize(Options["Hash"]);
 
-  UCI::loopHandlerToGetScore(fen);
+  int score = UCI::loopHandlerToGetScore(fen);
   //UCI::loop(argc, argv);
   //UCI::loopHandlerToGetScore("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
   Threads.exit();
+
+  return score;
 }
 }
 
