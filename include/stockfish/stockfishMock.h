@@ -17,11 +17,11 @@
 #include "stockfish/syzygy/tbprobe.h"
 
 
-
-namespace stockfishMock {
-inline namespace PSQT {
+namespace PSQT {
 void init();
 }
+
+namespace stockfishMock {
 
 int evaluate(std::string fen) {
   UCI::init(Options);
