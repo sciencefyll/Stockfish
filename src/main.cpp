@@ -32,25 +32,6 @@ namespace PSQT {
   void init();
 }
 
-void stockfishMockEvaluation(std::function<std::string()> fen) {
-  UCI::init(Options);
-  PSQT::init();
-  Bitboards::init();
-  Position::init();
-  Bitbases::init();
-  Search::init();
-  Pawns::init();
-  Threads.init();
-  Tablebases::init(Options["SyzygyPath"]);
-  TT.resize(Options["Hash"]);
-
-  UCI::loopHandlerToGetScore(fen());
-  //UCI::loop(argc, argv);
-  //UCI::loopHandlerToGetScore("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-
-  Threads.exit();
-}
-
 int main(int argc, char* argv[]) {
 
   std::cout << engine_info() << std::endl;

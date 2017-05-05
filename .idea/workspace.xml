@@ -13,29 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2524e1-4bc0-4ac7-bfdb-382d5f916b18" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/uci.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/stockfish/sdfsd.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stockfish/position.h" afterPath="$PROJECT_DIR$/include/stockfish/position.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stockfish/uci.h" afterPath="$PROJECT_DIR$/include/stockfish/uci.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/position.cpp" afterPath="$PROJECT_DIR$/src/position.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uci.cpp" afterPath="$PROJECT_DIR$/src/uci.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +31,8 @@
       <file leaf-file-name="uci.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uci.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="302" column="29" lean-forward="true" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
+            <state relative-caret-position="6342">
+              <caret line="302" column="29" lean-forward="false" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
               <folding>
                 <element signature="e#910#929#0" expanded="true" />
               </folding>
@@ -60,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="504">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sdfsd.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/stockfish/sdfsd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -73,8 +63,8 @@
       <file leaf-file-name="uci.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/stockfish/uci.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="863">
-              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="1407">
+              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -83,7 +73,7 @@
       <file leaf-file-name="evaluate.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/stockfish/evaluate.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -93,28 +83,18 @@
       <file leaf-file-name="position.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/stockfish/position.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="1617">
               <caret line="77" column="87" lean-forward="false" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="position.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="position.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/position.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
               <caret line="282" column="1" lean-forward="false" selection-start-line="282" selection-start-column="1" selection-end-line="282" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pawns.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/stockfish/pawns.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,9 +169,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/include/stockfish/uci.h" />
         <option value="$PROJECT_DIR$/src/uci.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/include/stockfish/position.h" />
         <option value="$PROJECT_DIR$/src/position.cpp" />
+        <option value="$PROJECT_DIR$/include/stockfish/sdfsd.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -553,12 +534,13 @@
       <workItem from="1493949754483" duration="245000" />
       <workItem from="1493962274809" duration="127000" />
       <workItem from="1493963947470" duration="1121000" />
-      <workItem from="1493965884720" duration="2150000" />
+      <workItem from="1493965884720" duration="2199000" />
+      <workItem from="1493968188576" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4280000" />
+    <option name="totallyTimeSpent" value="4419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="-11" width="1711" height="1419" extended-state="0" />
@@ -566,10 +548,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18922086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33639145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33639145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -577,6 +558,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -596,14 +578,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/position.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8379">
-          <caret line="399" column="14" lean-forward="false" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -983,33 +957,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/stockfish/uci.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="1407">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uci.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="302" column="29" lean-forward="true" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
+        <state relative-caret-position="6342">
+          <caret line="302" column="29" lean-forward="false" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
           <folding>
             <element signature="e#910#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/stockfish/evaluate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1017,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/stockfish/position.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="1617">
           <caret line="77" column="87" lean-forward="false" selection-start-line="77" selection-start-column="87" selection-end-line="77" selection-end-column="87" />
           <folding />
         </state>
@@ -1027,6 +993,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="282" column="1" lean-forward="false" selection-start-line="282" selection-start-column="1" selection-end-line="282" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/stockfish/sdfsd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
