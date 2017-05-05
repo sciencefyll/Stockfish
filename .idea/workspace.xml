@@ -13,6 +13,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2524e1-4bc0-4ac7-bfdb-382d5f916b18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/benchmark.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/endgame.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/evaluate.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/material.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/misc.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movegen.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/movepick.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/pawns.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/position.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/search.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/syzygy/tbprobe.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/thread.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/timeman.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/uci.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/uci.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Stockfish_src.dir/ucioption.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Stockfish_src" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/stockfish/stockfishMock.h" afterPath="$PROJECT_DIR$/include/stockfish/stockfishMock.h" />
     </list>
@@ -42,8 +59,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="630">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="e#910#929#0" expanded="true" />
               </folding>
@@ -54,9 +71,11 @@
       <file leaf-file-name="stockfishMock.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/stockfish/stockfishMock.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="462">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="e#93#112#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -538,12 +557,14 @@
       <workItem from="1493963947470" duration="1121000" />
       <workItem from="1493965884720" duration="2199000" />
       <workItem from="1493968188576" duration="126000" />
-      <workItem from="1493968439994" duration="38000" />
+      <workItem from="1493968439994" duration="63000" />
+      <workItem from="1493969524502" duration="58000" />
+      <workItem from="1493969631320" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4493000" />
+    <option name="totallyTimeSpent" value="4610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="-11" width="1711" height="1419" extended-state="0" />
@@ -674,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#910#930#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#910#930#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="630">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="e#910#929#0" expanded="true" />
           </folding>
@@ -1012,9 +1027,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/stockfish/stockfishMock.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#93#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
