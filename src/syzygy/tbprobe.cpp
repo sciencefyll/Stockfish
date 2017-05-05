@@ -28,14 +28,14 @@
 #include <sstream>
 #include <type_traits>
 
-#include "../../include/Stockfish/bitboard.h"
-#include "../../include/Stockfish/movegen.h"
-#include "../../include/Stockfish/position.h"
-#include "../../include/Stockfish/search.h"
-#include "../../include/Stockfish/thread_win32.h"
-#include "../../include/Stockfish/types.h"
+#include "stockfish/bitboard.h"
+#include "stockfish/movegen.h"
+#include "stockfish/position.h"
+#include "stockfish/search.h"
+#include "stockfish/thread_win32.h"
+#include "stockfish/types.h"
 
-#include "../../include/Stockfish/syzygy/tbprobe.h"
+#include "stockfish/syzygy/tbprobe.h"
 
 #ifndef _WIN32
 #include <fcntl.h>
@@ -1561,7 +1561,7 @@ bool Tablebases::root_probe(Position& pos, Search::RootMoves& rootMoves, Value& 
     }
 
     // Obtain 50-move counter for the root position.
-    // In Stockfish there seems to be no clean way, so we do it like this:
+    // In stockfish there seems to be no clean way, so we do it like this:
     int cnt50 = st.previous->rule50;
 
     // Use 50-move counter to determine whether the root position is

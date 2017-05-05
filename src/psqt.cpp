@@ -20,7 +20,7 @@
 
 #include <algorithm>
 
-#include "../include/Stockfish/types.h"
+#include "stockfish/types.h"
 
 Value PieceValue[PHASE_NB][PIECE_NB] = {
   { VALUE_ZERO, PawnValueMg, KnightValueMg, BishopValueMg, RookValueMg, QueenValueMg },

@@ -23,11 +23,11 @@
 #include <istream>
 #include <vector>
 
-#include "../include/Stockfish/misc.h"
-#include "../include/Stockfish/position.h"
-#include "../include/Stockfish/search.h"
-#include "../include/Stockfish/thread.h"
-#include "../include/Stockfish/uci.h"
+#include "stockfish/misc.h"
+#include "stockfish/position.h"
+#include "stockfish/search.h"
+#include "stockfish/thread.h"
+#include "stockfish/uci.h"
 
 using namespace std;
 

@@ -23,8 +23,8 @@
 #include <numeric>
 #include <vector>
 
-#include "../include/Stockfish/bitboard.h"
-#include "../include/Stockfish/types.h"
+#include "stockfish/bitboard.h"
+#include "stockfish/types.h"
 
 namespace {
 

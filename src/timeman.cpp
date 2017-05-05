@@ -22,9 +22,9 @@
 #include <cfloat>
 #include <cmath>
 
-#include "../include/Stockfish/search.h"
-#include "../include/Stockfish/timeman.h"
-#include "../include/Stockfish/uci.h"
+#include "stockfish/search.h"
+#include "stockfish/timeman.h"
+#include "stockfish/uci.h"
 
 TimeManagement Time; // Our global time management object
 

@@ -21,8 +21,8 @@
 #include <cstring>   // For std::memset
 #include <iostream>
 
-#include "../include/Stockfish/bitboard.h"
-#include "../include/Stockfish/tt.h"
+#include "stockfish/bitboard.h"
+#include "stockfish/tt.h"
 
 TranspositionTable TT; // Our global transposition table
 

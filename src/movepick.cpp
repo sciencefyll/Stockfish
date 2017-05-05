@@ -20,8 +20,8 @@
 
 #include <cassert>
 
-#include "../include/Stockfish/movepick.h"
-#include "../include/Stockfish/thread.h"
+#include "stockfish/movepick.h"
+#include "stockfish/thread.h"
 
 namespace {
 

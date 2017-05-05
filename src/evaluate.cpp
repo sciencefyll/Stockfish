@@ -24,10 +24,10 @@
 #include <iomanip>
 #include <sstream>
 
-#include "../include/Stockfish/bitboard.h"
-#include "../include/Stockfish/evaluate.h"
-#include "../include/Stockfish/material.h"
-#include "../include/Stockfish/pawns.h"
+#include "stockfish/bitboard.h"
+#include "stockfish/evaluate.h"
+#include "stockfish/material.h"
+#include "stockfish/pawns.h"
 
 namespace {
 

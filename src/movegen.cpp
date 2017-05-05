@@ -20,8 +20,8 @@
 
 #include <cassert>
 
-#include "../include/Stockfish/movegen.h"
-#include "../include/Stockfish/position.h"
+#include "stockfish/movegen.h"
+#include "stockfish/position.h"
 
 namespace {
 

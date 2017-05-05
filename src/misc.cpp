@@ -42,8 +42,8 @@ typedef bool(*fun3_t)(HANDLE, CONST GROUP_AFFINITY*, PGROUP_AFFINITY);
 #include <sstream>
 #include <vector>
 
-#include "../include/Stockfish/misc.h"
-#include "../include/Stockfish/thread.h"
+#include "stockfish/misc.h"
+#include "stockfish/thread.h"
 
 using namespace std;
 
@@ -122,7 +122,7 @@ const string engine_info(bool to_uci) {
   string month, day, year;
   stringstream ss, date(__DATE__); // From compiler, format is "Sep 21 2008"
 
-  ss << "Stockfish " << Version << setfill('0');
+  ss << "stockfish " << Version << setfill('0');
 
   if (Version.empty())
   {

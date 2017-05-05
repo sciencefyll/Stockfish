@@ -29,7 +29,7 @@ init:
 
 before_build:
   - cd src
-  - echo project (Stockfish) >> CMakeLists.txt
+  - echo project (stockfish) >> CMakeLists.txt
   - echo add_executable(stockfish benchmark.cpp bitbase.cpp bitboard.cpp endgame.cpp evaluate.cpp >> CMakeLists.txt
   - echo main.cpp material.cpp misc.cpp movegen.cpp movepick.cpp pawns.cpp position.cpp psqt.cpp >> CMakeLists.txt
   - echo search.cpp thread.cpp timeman.cpp tt.cpp uci.cpp ucioption.cpp syzygy/tbprobe.cpp) >> CMakeLists.txt
