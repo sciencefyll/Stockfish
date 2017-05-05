@@ -67,6 +67,7 @@ private:
 
 void init(OptionsMap&);
 void loop(int argc, char* argv[]);
+int loopHandlerToGetScore(std::string fen);
 std::string value(Value v);
 std::string square(Square s);
 std::string move(Move m, bool chess960);

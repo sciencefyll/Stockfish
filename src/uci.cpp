@@ -219,6 +219,89 @@ void UCI::loop(int argc, char* argv[]) {
   Threads.main()->wait_for_search_finished();
 }
 
+int UCI::loopHandlerToGetScore(std::string fen) {
+
+  Position pos;
+  string token, cmd;
+  int argc = 1;
+
+  pos.set(StartFEN, false, &States->back(), Threads.main());
+  int progressIndex = 0;
+  std::array<std::string, 4> commands = {
+      "uci",
+      "isready",
+      "position fen " + fen,
+      "quit"
+  };
+
+  do {
+    cmd = commands[progressIndex];
+    //std::cout << "> " + cmd << std::endl;
+
+    istringstream is(cmd);
+
+    token.clear(); // getline() could return empty or blank line
+    is >> skipws >> token;
+
+    // The GUI sends 'ponderhit' to tell us to ponder on the same move the
+    // opponent has played. In case Signals.stopOnPonderhit is set we are
+    // waiting for 'ponderhit' to stop the search (for instance because we
+    // already ran out of time), otherwise we should continue searching but
+    // switching from pondering to normal search.
+    if (    token == "quit"
+        ||  token == "stop"
+        || (token == "ponderhit" && Search::Signals.stopOnPonderhit))
+    {
+      Search::Signals.stop = true;
+      Threads.main()->start_searching(true); // Could be sleeping
+    }
+    else if (token == "ponderhit")
+      Search::Limits.ponder = 0; // Switch to normal search
+
+    else if (token == "uci"){}
+      //sync_cout << "id name " << engine_info(true)
+      //          << "\n"       << Options
+      //          << "\nuciok"  << sync_endl;
+
+    else if (token == "ucinewgame")
+    {
+      Search::clear();
+      Tablebases::init(Options["SyzygyPath"]);
+      Time.availableNodes = 0;
+    }
+    else if (token == "isready")    {}//sync_cout << "readyok" << sync_endl;
+    else if (token == "go")         {}//go(pos, is);
+    else if (token == "position")   position(pos, is);
+    else if (token == "setoption")  {}//setoption(is);
+
+      // Additional custom non-UCI commands, useful for debugging
+    else if (token == "flip")       {}//pos.flip();
+    else if (token == "bench")      {}//benchmark(pos, is);
+    else if (token == "d")          {}//sync_cout << pos << sync_endl;
+    else if (token == "eval")       {}//sync_cout << Eval::trace(pos) << sync_endl;
+    else if (token == "perft")      {}
+    //{
+    //  int depth;
+    //  stringstream ss;
+
+    //is >> depth;
+    //        ss << Options["Hash"]    << " "
+    //             << Options["Threads"] << " " << depth << " current perft";
+
+    //    benchmark(pos, ss);
+    //}
+    //else {}
+    //    sync_cout << "Unknown command: " << cmd << sync_endl;
+    progressIndex += 1;
+
+  } while (token != "quit"); // Passed args have one-shot behaviour
+
+  Threads.main()->wait_for_search_finished();
+
+  //std::cout << Eval::evaluate(pos) << std::endl;
+
+  return Eval::evaluate(pos);
+}
 
 /// UCI::value() converts a Value to a string suitable for use with the UCI
 /// protocol specification:
