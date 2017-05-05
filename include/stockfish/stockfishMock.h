@@ -5,6 +5,17 @@
 #ifndef STOCKFISH_SDFSD_H
 #define STOCKFISH_SDFSD_H
 
+
+#include <iostream>
+
+#include "stockfish/bitboard.h"
+#include "stockfish/position.h"
+#include "stockfish/search.h"
+#include "stockfish/thread.h"
+#include "stockfish/tt.h"
+#include "stockfish/uci.h"
+#include "stockfish/syzygy/tbprobe.h"
+
 namespace stockfishMock {
 void evaluate(std::string fen) {
   UCI::init(Options);
