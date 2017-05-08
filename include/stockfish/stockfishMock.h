@@ -23,6 +23,10 @@ void init();
 
 namespace stockfishMock {
 
+void resetOption() {
+  Options.clear();
+}
+
 int evaluate(std::string fen) {
   UCI::init(Options);
   PSQT::init();
@@ -40,6 +44,7 @@ int evaluate(std::string fen) {
   //UCI::loopHandlerToGetScore("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
   Threads.exit();
+  resetOption();
 
   return score;
 }
