@@ -27,7 +27,7 @@
 #include "stockfish/tt.h"
 #include "stockfish/uci.h"
 #include "stockfish/syzygy/tbprobe.h"
-#include "stockfish/stockfishMock.h"
+//#include "stockfish/stockfishMock.h"
 
 namespace PSQT {
   void init();

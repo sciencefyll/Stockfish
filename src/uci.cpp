@@ -227,7 +227,7 @@ int UCI::loopHandlerToGetScore(std::string fen) {
   //string token, cmd;
   //int argc = 1;
 
-  pos.set(StartFEN, false, &States->back(), Threads.main());
+  pos.set(fen, false, &States->back(), Threads.main());
 
   auto score = Eval::evaluate(pos);
   //Threads.main()->wait_for_search_finished();

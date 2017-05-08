@@ -1,5 +1,7 @@
 project (Stockfish_src)
 
+#set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 # Files to be compiled.
 file(GLOB Stockfish_srcfiles "*.cpp" "**/*.cpp")
 add_executable(Stockfish_src ${Stockfish_srcfiles})
