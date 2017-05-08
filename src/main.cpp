@@ -27,12 +27,15 @@
 #include "stockfish/tt.h"
 #include "stockfish/uci.h"
 #include "stockfish/syzygy/tbprobe.h"
+#include "stockfish/stockfishMock.h"
 
 namespace PSQT {
   void init();
 }
 
 int main(int argc, char* argv[]) {
+
+  return ::stockfishMock::evaluate("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
   std::cout << engine_info() << std::endl;
 

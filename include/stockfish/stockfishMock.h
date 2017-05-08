@@ -39,11 +39,11 @@ int evaluate(std::string fen) {
   Bitboards::init();
   Position::init();
   Bitbases::init();
-  Search::init();
+  //Search::init();
   Pawns::init();
   Threads.init();
-  Tablebases::init(Options["SyzygyPath"]);
-  TT.resize(Options["Hash"]);
+  //Tablebases::init(Options["SyzygyPath"]);
+  //TT.resize(Options["Hash"]);
 
   int score = UCI::loopHandlerToGetScore(fen);
   //UCI::loop(argc, argv);
