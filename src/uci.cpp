@@ -226,6 +226,12 @@ int UCI::loopHandlerToGetScore(std::string fen) {
   int argc = 1;
 
   pos.set(StartFEN, false, &States->back(), Threads.main());
+
+  auto score = Eval::evaluate(pos);
+  Threads.main()->wait_for_search_finished();
+  return score;
+
+
   int progressIndex = 0;
   std::array<std::string, 4> commands = {
       "uci",
