@@ -790,7 +790,10 @@ namespace {
 template<bool DoTrace>
 Value Eval::evaluate(const Position& pos) {
 
-  assert(!pos.checkers());
+  if (pos.checkers()) {
+    throw std::invalid_argument( "pos.checkers() was not false!" );
+  }
+  //assert(!pos.checkers());
 
   Score mobility[COLOR_NB] = { SCORE_ZERO, SCORE_ZERO };
   Value v;
