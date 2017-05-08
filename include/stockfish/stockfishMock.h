@@ -15,6 +15,7 @@
 #include "stockfish/tt.h"
 #include "stockfish/uci.h"
 #include "stockfish/syzygy/tbprobe.h"
+#include "stockfish/timeman.h"
 
 
 namespace PSQT {
@@ -23,8 +24,13 @@ void init();
 
 namespace stockfishMock {
 
-void resetOption() {
+void resetStockfish() {
+  //TT.clear();
+  //::Search::clear();
+  Time = TimeManagement();
   Options.clear();
+  //Limits = ::Search::LimitsType();
+  //Signals = ::Search::SignalsType();
 }
 
 int evaluate(std::string fen) {
@@ -44,7 +50,7 @@ int evaluate(std::string fen) {
   //UCI::loopHandlerToGetScore("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
   Threads.exit();
-  resetOption();
+  resetStockfish();
 
   return score;
 }
