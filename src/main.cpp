@@ -35,7 +35,7 @@ namespace PSQT {
 
 int main(int argc, char* argv[]) {
 
-  return ::stockfishMock::evaluate("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+  //return ::stockfishMock::evaluate("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 
   std::cout << engine_info() << std::endl;
 

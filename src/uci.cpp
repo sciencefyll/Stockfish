@@ -72,6 +72,8 @@ namespace {
     States = StateListPtr(new std::deque<StateInfo>(1));
     pos.set(fen, Options["UCI_Chess960"], &States->back(), Threads.main());
 
+    std::cout << "chess_ann " << Eval::evaluate(pos) << std::endl;
+
     // Parse move list (if any)
     while (is >> token && (m = UCI::to_move(pos, token)) != MOVE_NONE)
     {
